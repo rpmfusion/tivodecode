@@ -1,6 +1,6 @@
 Name:           tivodecode
 Version:        0.2
-Release:        0.7.pre4%{?dist}
+Release:        0.8.pre4%{?dist}
 Summary:        Convert a .TiVo file from TiVoToGo to a normal MPEG
 
 Group:          Applications/Multimedia
@@ -98,6 +98,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Aug 31 2017 RPM Fusion Release Engineering <kwizart@rpmfusion.org> - 0.2-0.8.pre4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Mass_Rebuild
+
 * Mon Mar 20 2017 RPM Fusion Release Engineering <kwizart@rpmfusion.org> - 0.2-0.7.pre4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
 
